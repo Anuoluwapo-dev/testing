@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    background: url('./images/');
+    background-color: hsl(193, 100%, 96%);
+    padding: 40px 60px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    height: 35px;
+}
+.btn{
+    padding: 15px 60px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 3px 16px rgba(0, 0, 0, 0.12);
+}
+.build-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px 20px;   
+}
+.build{
+    width: 45%;
+}
+.illus{
+    width: 55%;
+}
+.build h1{
+    font-size: 42px;
+    padding-right: 40px;
+    margin: 25px 0px;
+}
+.build p{
+    padding-right: 40px;
+    margin: 25px 0px;
+    color: hsl(208, 11%, 55%);
+}
+.build button{
+    background-color: hsl(322, 100%, 60%);
+    color: #fff;
+    padding: 15px 70px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 80px 40px;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10px 50px 65px;
+    box-shadow: 0 3px 16px rgba(0,0,0,0.12);
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.service img{
+    max-width: 100%;
+    width: 520px;
+    padding: 15px 80px 15px 60px;
+}
+.content{
+    padding-left: 70px;
+}
+.content h2{
+    margin: 10px 0px;
+}
+.content p{
+    width: 93%;
+    color: hsl(208, 11%, 55%);
+}
+.left{
+    margin-right: 0px;
+}
+.left p{
+    width: 100%;
+}
+.promo{
+    position: relative;
+    max-width: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #fff;
+    padding: 60px 0px;
+    box-shadow: 0 3px 16px rgba(0,0,0,0.12);
+    border-radius: 10px;
+    margin-bottom: 105px;
+}
+.promo h1{
+    margin-top: 15px;
+}
+.btn2{
+    margin-top: 20px;
+    padding: 24px 115px;
+    border-radius: 40px;
+    background-color: hsl(322, 100%, 60%);
+    color: #fff;
+    font-size: 18px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    padding: 200px 100px 30px;
+}
+.footer-logo{
+    width: 250px;
+}
+.footer-sec{
+    display: flex;
+    margin: 40px 0px;
+}
+.sec-1{
+    min-width: 40%;
+    width: 40%;
+}
+.add{
+    display: flex;
+    align-items: flex-start;
+}
+.add img{
+    margin-top: 4px;
+    margin-right: 20px;
+}
+li{
+    margin-bottom: 20px;
+    padding-right: 60px;
+    opacity: 0.9;
+}
+.sec-2
+.sec-3
+.sec-4{
+    width: 20%;
+    margin-left: 30px;
+}
+.social{
+    display: flex;
+    padding: 0;
+}
+a{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+
+}
+.social li{
+    padding: 0px 7px;
+}
+.copy{
+    text-align: right;
+}
+@media (max-width: 992px){
+    header{
+        padding: 30px 20px;
+    }
+    .build-sec{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .build{
+        width: 95%;
+    }
+    .illus{
+        margin-top: 30px;
+        width: 95%;
+    }
+    .build p,
+    .build h1{
+        padding: 0;
+    }
+    .services{
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+    .service{
+        flex-direction: column;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-left: 0px;
+    }
+    .service-1,
+    .service-3{
+        flex-direction: column-reverse;
+    }
+    .service p{
+        width: 100%;
+        padding: 0;
+        margin: auto;
+    }
+    .content{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 95%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .promo{
+        width: 90%;
+        text-align: center;
+    }
+    h1{
+        font-size: 28px;
+    }
+    .promo button{
+        padding: 15px 60px;
+        font-size: 16px;
+    }
+
+    footer{
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+    .footer-sec{
+        flex-direction: column;
+    }
+    li{
+        padding: 0px;
+    }
+    .sec-1{
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .sec-2,
+    .sec-3,
+    .sec-4{
+        margin-left: 0;
+        width: 100%;
+    }
+    a{
+        margin-left: 0;
+    }
+    .sec-4{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin: 30px 0px 0px;
+        margin-bottom: 20px;
+    }
+    .copy{
+        text-align: center;
+    }
+}
+@media (max-width: 552px){
+    nav img,
+    .footer-logo{
+        width: 150px;
+        height: 25px;
+    }
+    nav button{
+        padding: 8px 20px !important;
+    }
+    h1{
+        font-size: 28px !important;
+    }
+    h2{
+        font-size: 22px !important;
+    }
+    .btn2{
+        padding: 15px 30px !important;
+        font-size: 14px !important;
+    }
+}
